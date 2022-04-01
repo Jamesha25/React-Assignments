@@ -1,0 +1,50 @@
+.site-container > div {
+    padding: 20px;
+    margin:20px;
+    border: solid;
+}
+.site-container .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+}
+.site-container .header .btn{
+    padding: 10px 20px;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+.site-container .customer-info .field-container {
+    display: flex;
+    gap:20px;
+    padding:5px 0px
+}
+.site-container .order-info{
+    display: flex;
+    gap:30%;
+    background: #cfd1ca;
+}
+.site-container .customer-info .field-container .label,
+.site-container .order-info .field-container .label,
+.site-container .product-list .field-container .label{
+    font-weight: 900;
+}
+.site-container .order-info .field-container,
+.site-container .product-list .field-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.site-container .product-list{
+    display: flex;
+    gap:30px;
+    position: relative;
+}
+.site-container .product-list .checkBox{
+    margin-top: 5%;
+}
+.site-container .product-list .checkBox input{
+    width: 30px;
+    height: 30px;
+}

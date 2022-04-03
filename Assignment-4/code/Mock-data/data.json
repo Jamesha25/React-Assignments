@@ -1,0 +1,32 @@
+{
+    "user":
+    [
+        {
+            "id":1,
+            "name":"Siva",
+            "location":"Bengaluru",
+            "likes":64,
+            "description": "Hello I am a full stack developer",
+            "PostImage": "assets/pic-1.png",
+            "date": "09-01-1998"
+        },
+        {
+            "id":2,
+            "name":"Kajol",
+            "location":"Pune",
+            "likes":30,
+            "description": "Hello I am a frontend Engineer",
+            "PostImage": "assets/pic-2.png",
+            "date": "09-01-1998"
+        },
+        {
+            "id":3,
+            "name":"Rahul",
+            "location":"Hyderabad",
+            "likes":30,
+            "description": "Hello I am a backend Engineer",
+            "PostImage": "assets/pic-3.png",
+            "date": "09-01-1998"
+        }
+    ]
+}

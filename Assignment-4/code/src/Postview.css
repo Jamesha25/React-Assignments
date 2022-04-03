@@ -1,11 +1,5 @@
-.site-container{
-  text-align: center;
+@media only screen and (max-width: 425px) {
+    .site-container{
+        text-align: center;
+    }
 }
-html {
-  font-size: 14px;
-}
-body {
-  line-height: 1.5;
-  color: black;
-  margin:0;
-} 

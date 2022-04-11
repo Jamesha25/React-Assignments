@@ -1,0 +1,14 @@
+.landingPage-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.landingPage-container button{
+    color: green;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}

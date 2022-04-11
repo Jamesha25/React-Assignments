@@ -1,7 +1,7 @@
 import React from 'react';
 import './Postview.css';
-import Header from './components/header/header';
-import Cards from './components/cards/cards';
+import Header from '../../components/header/header.js'
+import Cards from '../../components/cards/cards';
 import { useState, useEffect } from "react";
 
 export default function Postview() {
